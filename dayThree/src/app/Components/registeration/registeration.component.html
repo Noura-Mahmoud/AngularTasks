@@ -1,0 +1,19 @@
+<div class = "form">
+    <input type="text" [(ngModel)]="name"/>
+    <div *ngIf="name.length<3 ; else validName" >
+        <p class="notValid">Name must be at least 3 letters</p>
+    </div>
+    <ng-template #validName>
+        <p class="valid">Name Valid</p>
+    </ng-template>
+
+    <input type="text" [(ngModel)]="age"/>
+    <div *ngIf="(+age>20 && +age<40 && age); else notValidAge">
+        <p class="valid">Age Valid</p>
+    </div>
+    <ng-template #notValidAge>
+        <p class="notValid">Age is not valid</p>
+    </ng-template>
+
+    <input type="button" value="Add" (click)="AddStd($event)"/>
+</div>

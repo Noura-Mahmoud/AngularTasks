@@ -1,0 +1,13 @@
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Age</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of DataFromParent">
+            <td>{{s.name}}</td>
+            <td>{{s.age}}</td>
+        </tr>
+    </tbody>
+</table>
+<!-- <p>name: {{DataFromParent.name}} , age: {{DataFromParent.age}}</p> -->
