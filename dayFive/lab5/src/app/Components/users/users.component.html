@@ -1,0 +1,38 @@
+<div class="container" >
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <div class="card">
+        <div class="card-header">Users List</div>
+        <div class="card-body" *ngIf="users">
+          <table class="table table-bordered table-striped text-center">
+            <thead class="thead-dark">
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Courses</th>
+                <th>Update</th>
+                <th>Details</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let u of users">
+                <td>{{u.name}}</td>
+                <td>{{u.age}}</td>
+                <td>{{u.email}}</td>
+                <td>{{u.phone}}</td>
+                <td>{{u.courses}}</td>
+                <td><a routerLink="/editUser/{{u.id}}"><img width="20px" height="20px" src="assets/Images/edit.png"/></a></td>
+                <td><a routerLink="/users/{{u.id}}"><img width="20px" height="20px" src="assets/Images/details.png"/></a></td>
+                <!-- <td><button type="button" (click)="deleteUser(u.id)"><img width="20px" height="20px" src="assets/Images/delete.png"/></button></td> -->
+                <td><a routerLink="/deleteUser/{{u.id}}"><img width="20px" height="20px" src="assets/Images/delete.png"/></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

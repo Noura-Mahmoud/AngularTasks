@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "name": "Sara Ahmed",
+      "age": "27",
+      "email": "sara.ahmed@example.com",
+      "phone": "+201111111111",
+      "courses": [
+        "Mathematics",
+        "Physics",
+        "Chemistry"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Ahmed Mohamed",
+      "age": "34",
+      "email": "ahmed.mohamed@example.com",
+      "phone": "+201122222222",
+      "courses": [
+        "History",
+        "Geography"
+      ],
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Hassan Ali",
+      "age": 25,
+      "email": "hassan.ali@example.com",
+      "phone": "+201133333333",
+      "courses": [
+        "Computer Science",
+        "Programming"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fatma Mahmoud",
+      "age": 29,
+      "email": "fatma.mahmoud@example.com",
+      "phone": "+201144444444",
+      "courses": [
+        "Literature",
+        "English"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nour Hassan",
+      "age": 30,
+      "email": "nour.hassan@example.com",
+      "phone": "+201155555555",
+      "courses": [
+        "Biology",
+        "Anatomy"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mahmoud Samy",
+      "age": 22,
+      "email": "mahmoud.samy@example.com",
+      "phone": "+201166666666",
+      "courses": [
+        "Business",
+        "Economics"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mona Ahmed",
+      "age": 31,
+      "email": "mona.ahmed@example.com",
+      "phone": "+201177777777",
+      "courses": [
+        "Law"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Youssef Mohamed",
+      "age": 27,
+      "email": "youssef.mohamed@example.com",
+      "phone": "+201188888888",
+      "courses": [
+        "Psychology"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Amr Ali",
+      "age": 26,
+      "email": "amr.ali@example.com",
+      "phone": "+201199999999",
+      "courses": [
+        "Chemical Engineering"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Laila Hassan",
+      "age": 23,
+      "email": "laila.hassan@example.com",
+      "phone": "+201211111111",
+      "courses": [
+        "Art",
+        "Design"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ali Mostafa",
+      "age": 32,
+      "email": "ali.mostafa@example.com",
+      "phone": "+201222222222",
+      "courses": [
+        "Music"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Omar Samir",
+      "age": 28,
+      "email": "omar.samir@example.com",
+      "phone": "+201233333333",
+      "courses": [
+        "Philosophy"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Mohamed Hamdi",
+      "age": 24,
+      "email": "mohamed.hamdi@example.com",
+      "phone": "+201244444444",
+      "courses": [
+        "Marketing",
+        "Advertising"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Aisha Mustafa",
+      "age": 29,
+      "email": "aisha.mustafa@example.com",
+      "phone": "+201255555555",
+      "courses": [
+        "Arabic",
+        "Islamic Studies"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Khaled Nasser",
+      "age": 30,
+      "email": "khaled.nasser@example.com",
+      "phone": "+201266666666",
+      "courses": [
+        "Journalism",
+        "Media"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Hala Hassan",
+      "age": 26,
+      "email": "hala.hassan@example.com",
+      "phone": "+201277777777",
+      "courses": [
+        "Environmental Science"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Omar Ali",
+      "age": 27,
+      "email": "omar.ali@example.com",
+      "phone": "+201288888888",
+      "courses": [
+        "Engineering"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Nadia Mohamed",
+      "age": 31,
+      "email": "nadia.mohamed@example.com",
+      "phone": "+201299999999",
+      "courses": [
+        "Education"
+      ]
+    },
+    {
+      "name": "Ali Mahmoud",
+      "age": "27",
+      "email": "ali.mahmoud@example.com",
+      "phone": "+201311111111",
+      "courses": [
+        "Physical Education",
+        "Sports Science"
+      ],
+      "id": 19
+    },
+    {
+      "name": "Sara Hassan",
+      "age": "24",
+      "email": "sara.hassan@example.com",
+      "phone": "+201322222222",
+      "courses": [
+        "Fashion Design"
+      ],
+      "id": 20
+    }
+  ]
+}

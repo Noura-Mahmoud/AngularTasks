@@ -1,0 +1,43 @@
+<div class="container mt-5">
+  <div class="card shadow">
+    <div class="card-body">
+      <form>
+        <div class="form-group row m-2">
+          <label for="name" class="col-sm-3 col-form-label">Name</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="name" #name>
+          </div>
+        </div>
+        <div class="form-group row m-2">
+          <label for="age" class="col-sm-3 col-form-label">Age</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="age" #age>
+          </div>
+        </div>
+        <div class="form-group row m-2">
+          <label for="email" class="col-sm-3 col-form-label">Email</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="email" #email>
+          </div>
+        </div>
+        <div class="form-group row m-2">
+          <label for="phone" class="col-sm-3 col-form-label">Phone</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="phone" #phone>
+          </div>
+        </div>
+        <div class="form-group row m-2">
+          <label for="courses" class="col-sm-3 col-form-label">Courses</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="courses" #courses>
+          </div>
+        </div>
+        <div class="form-group row m-2">
+          <div class="col-sm-12 text-center">
+            <button type="button" class="btn btn-success" (click)="Add(name.value, age.value, email.value, phone.value, courses.value)">Add User</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
